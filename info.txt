@@ -1,0 +1,24 @@
+In Leagues.json:
+Groups tournaments, gives them a priority (read importance)
+Example: 
+
+    "id": "98767991299243165",
+    "name": "LCS",
+    "slug": "lcs",
+    "sport": "lol",
+    "image": "http://static.lolesports.com/leagues/LCSNew-01-FullonDark.png",
+    "lightImage": "http://static.lolesports.com/leagues/LCSNew-01-FullonDark.png",
+    "darkImage": "http://static.lolesports.com/leagues/LCSNew-01-FullonDark.png",
+    "region": "NORTH AMERICA",
+    "priority": 1,
+    "displayPriority": {
+      "position": 0,
+      "status": "selected"
+    },
+    "tournaments": []
+
+Important: "tournaments"
+Note, we can filter for specific tournaments that we want.
+
+
+
